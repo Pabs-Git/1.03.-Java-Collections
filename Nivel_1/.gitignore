@@ -27,3 +27,8 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+.idea/
+Nivel_1.iml
+*.iml
+.gitignore
