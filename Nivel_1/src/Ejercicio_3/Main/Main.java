@@ -14,7 +14,7 @@ public class Main {
 
         String user = JOptionPane.showInputDialog("Please, can you tell us your user name?");
 
-        CountryCapitalMap actualUserMap = new CountryCapitalMap("C:\\Users\\formacio\\Downloads");
+        CountryCapitalMap actualUserMap = new CountryCapitalMap("C:\\Users\\pablo\\Downloads\\countries.txt");
 
         int accesGame = JOptionPane.showConfirmDialog(null, "Hello " + user + ","
                 + " We are going to show you the name of a country, "
@@ -35,7 +35,7 @@ public class Main {
                 }
 
             }
-            JOptionPane.showMessageDialog(null, "Game over! Your score is: " + points);
+            JOptionPane.showMessageDialog(null, "Game over! Your score is: " + points + " out of 10");
         }
 
         else {

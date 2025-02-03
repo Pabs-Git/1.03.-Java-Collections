@@ -40,6 +40,7 @@ public class CountryCapitalMap {
     }
 
     public Map<String, String> getCountryCapitalMap() {
+
         return countryCapitalMap;
     }
 
@@ -53,6 +54,7 @@ public class CountryCapitalMap {
     }
 
     public String getCapital(String country) {
+
         return countryCapitalMap.get(country);
     }
 }
