@@ -1,7 +1,8 @@
-package Ejercicio_1;
+package Ejercicio_1.Main;
+
+import Ejercicio_1.Classes.Month;
 
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
 import java.util.*;
@@ -26,21 +27,21 @@ public class Main {
                 new Month("Diciembre")
         );
 
-        System.out.println(months);
+        months.add(7,new Month("Agosto"));
 
-        //Demostrar que tiene un orden correcto imprimiendo el indice "10", que sera diciembre debido a que agosto no existe en el array y debido a que "0" es enero.
-        System.out.println(months.get(10));
+        System.out.println("Mostrar que los meses mantienen orden correcto despues de añadir 'Agosto'");
+        System.out.println(months);
 
         Set<Month> monthsSet = new HashSet<>(months);
 
-        //Recorrer el HashSet con un bucle for-each
-        System.out.println("Recorriendo con un for-each:");
+        monthsSet.add(new Month("Agosto"));
+
+        System.out.println("Mostrar meses con for-each");
         for (Month month : monthsSet) {
             System.out.println(month.getName());
         }
 
-        //Recorrer el HashSet con un iterador
-        System.out.println("\nRecorriendo con un iterador:");
+        System.out.println("Mostrar meses con iterador");
         Iterator<Month> iterator = monthsSet.iterator();
         while (iterator.hasNext()) {
             System.out.println(iterator.next().getName());
