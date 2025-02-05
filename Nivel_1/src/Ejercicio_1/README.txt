@@ -1,6 +1,32 @@
-- Ejercicio 1
-Crea una clase llamada Month con un atributo "name" (que almacenará el nombre del mes del año). Añade 11 objetos Month (cada uno con su atributo diferente) en un ArrayList, a excepción del objeto con atributo "Agost". Después, efectúa la inserción en el sitio que corresponde a este mes y demuestra que ArrayList mantiene el orden correcto.
+📄Descripció - Enunciat de l'exercici
 
-Convierte ArrayList del ejercicio anterior en un HashSet y asegúrate de que no permite duplicados.
+Crea una classe anomenada Month amb un atribut "name" (que emmagatzemarà el nom del mes de l'any). Afegeix 11 objectes Month (cadascun amb el seu atribut diferent) en un ArrayList, a excepció de l'objecte amb atribut "Agost". Després, efectua la inserció en el lloc que correspon a aquest mes i demostra que l’ArrayList manté l'ordre correcte.
 
-Recorre la lista con un for y con un iterador.
+Converteix l’ArrayList de l’exercici anterior en un HashSet i assegura’t que no permet duplicats.
+
+Recorre la llista amb un for i amb un iterador.
+
+
+💻Tecnologies Utilitzades
+
+IntelliJ - IDEA
+JDK 23
+
+📋Requisits
+
+JDK 17 o superior instalado.
+Un IDE como IntelliJ IDEA o Eclipse para editar el código.
+
+
+🛠️Instal·lació
+
+Clona o descarga el repositorio donde se encuentra el código.
+Abre el proyecto en tu IDE (IntelliJ IDEA, Eclipse, etc.).
+
+
+▶️Execució
+
+Abre el proyecto en tu IDE.
+
+Navega a la clase principal que contiene el método main para ejecutar el código.
+
