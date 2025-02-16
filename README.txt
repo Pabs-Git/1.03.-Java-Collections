@@ -20,10 +20,6 @@ Clone the repository or download the project folder to your local machine.
 Open the project folder in your IDE (such as IntelliJ IDEA).
 Ensure that Java 8 or later is set as the SDK in your IDE.
 
-▶️ Execution
-
-Compiling and Running the Code: Once you have compiled the Java files, you can run them directly from the terminal. You will find the commands that you need to make the it run in each exercise folder.
-
 
 - Exercici 1
 Crea una classe anomenada Month amb un atribut "name" (que emmagatzemarà el nom del mes de l'any). Afegeix 11 objectes Month (cadascun amb el seu atribut diferent) en un ArrayList, a excepció de l'objecte amb atribut "Agost". Després, efectua la inserció en el lloc que correspon a aquest mes i demostra que l’ArrayList manté l'ordre correcte.
