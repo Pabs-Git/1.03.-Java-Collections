@@ -29,7 +29,7 @@ public class CountryCapitalMap {
                 }
             }
         } catch (IOException e) {
-            e.printStackTrace();
+            e.getMessage();
         }
     }
 

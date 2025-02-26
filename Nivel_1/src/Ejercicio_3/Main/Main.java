@@ -3,6 +3,7 @@ package Ejercicio_3.Main;
 import Ejercicio_3.Classes.CountryCapitalMap;
 
 import javax.swing.*;
+import java.io.File;
 
 public class Main {
 
@@ -14,7 +15,7 @@ public class Main {
 
         String user = JOptionPane.showInputDialog("Please, can you tell us your user name?");
 
-        CountryCapitalMap actualUserMap = new CountryCapitalMap("C:\\Users\\pablo\\Downloads\\countries.txt");
+        CountryCapitalMap actualUserMap = new CountryCapitalMap( "Nivel_1" + File.separator + "countries.txt");
 
         int accesGame = JOptionPane.showConfirmDialog(null, "Hello " + user + ","
                 + " We are going to show you the name of a country, "
