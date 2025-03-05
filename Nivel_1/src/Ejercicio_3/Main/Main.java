@@ -1,4 +1,4 @@
-package Ejercicio_3.Main;
+package Ejercicio_3.main;
 
 import Ejercicio_3.Classes.CountryCapitalMap;
 
