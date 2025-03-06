@@ -1,4 +1,4 @@
-package Ejercicio_1.Classes;
+package Ejercicio_1.classes;
 
 public class Month {
 

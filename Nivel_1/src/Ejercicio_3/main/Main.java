@@ -1,6 +1,6 @@
 package Ejercicio_3.main;
 
-import Ejercicio_3.Classes.CountryCapitalMap;
+import Ejercicio_3.classes.CountryCapitalMap;
 
 import javax.swing.*;
 import java.io.File;

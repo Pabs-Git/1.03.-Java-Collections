@@ -1,4 +1,4 @@
-package Ejercicio_3.Classes;
+package Ejercicio_3.classes;
 
 import java.io.BufferedReader;
 import java.io.FileReader;

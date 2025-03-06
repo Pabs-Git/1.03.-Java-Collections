@@ -5,4 +5,8 @@
 !Nivel_1
 !Nivel_1/**
 !.gitignore
+<<<<<<< HEAD
 !README
+=======
+!README.txt
+>>>>>>> 04e45de99de901f7e5887fa1a5eac144b4da2bae

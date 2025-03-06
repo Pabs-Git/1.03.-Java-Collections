@@ -1,6 +1,6 @@
-package Ejercicio_1.Main;
+package Ejercicio_1.main;
 
-import Ejercicio_1.Classes.Month;
+import Ejercicio_1.classes.Month;
 
 import java.util.ArrayList;
 import java.util.Collections;
