@@ -29,7 +29,7 @@ public class CountryCapitalMap {
                 }
             }
         } catch (IOException e) {
-            e.getMessage();
+            System.err.println("Error loading countries: " + e.getMessage());
         }
     }
 
